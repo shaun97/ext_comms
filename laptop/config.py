@@ -1,0 +1,14 @@
+
+HOST_ADDR = ('localhost', 8081)
+EN_FORMAT = "utf-8"
+DANCER_NO = 1
+DANCER_NAME = "JingXuan"
+SECRET_KEY = "0000000000000000"
+BUFF_SIZE = 256
+
+SUNFIRE_USER = ""
+SUNFIRE_PASS = ""
+
+FIFO = "/tmp/myfifo"
+C_BUFF_SIZE = 100
+
