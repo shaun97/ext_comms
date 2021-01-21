@@ -16,9 +16,9 @@ External communication portion of CG4002 Capstone project. Handles the connectio
 
 ## ./ultra96
 * This folder contains the codes for the Ultra96 to run.
-* Contains 4 main scripts. ultra96_client, ultra96_server, dashboard_server and main.py.
+* Contains 4 main scripts. ```ultra96_client.py```, ```ultra96_server.py```, ```dashboard_server.py``` and ```main.py```.
 * The first 3 contains the code to handle the connection to the respective devices. main.py contains the main driver of the whole program. Imports the other classes.
 * Use config.py to set the relevant parameters for the program.
-* Helper scripts - move_eval.py, ml.py, driver_hardware_ml.py contains the helper scripts for evaluating moves, ml code and FPGA ml code respectively.
+* Helper scripts - ```move_eval.py```, ```ml.py``` and ```driver_hardware_ml.py``` contains the helper scripts for evaluating moves, ml code and FPGA ml code respectively.
 * Run requirements.txt for dependencies.
 * Run the program using ```python3 main.py```
