@@ -3,9 +3,9 @@
 External communication portion of CG4002 Capstone project. Handles the connection between 3 laptops, Ultra96, dashboard server and evaluation server. All socket connections are encrypted and features 2 way communication to control the blunos from the Ultra96. Ultra96 features multi-threading to handle each socket connection and the ML code.
 
 ## ./laptop
-* This folder contains the laptop_client.py code to run on each of the dancer's laptop.
-* Run requirements.txt for dependencies.
-* config.py to set relevant parameters. Include Sunfire account to tunnel into the Ultra96.
+* This folder contains the ```laptop_client.py``` code to run on each of the dancer's laptop.
+* Run ```requirements.txt``` for dependencies.
+* ```config.py``` to set relevant parameters. Include Sunfire account to tunnel into the Ultra96.
 * Run the program using ```python3 laptop_client.py```
 
 ## ./dashboard
