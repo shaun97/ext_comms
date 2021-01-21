@@ -1,5 +1,7 @@
 # CG4002 External Comms
 
+External communication portion of CG4002 Capstone project. Handles the connection between 3 laptops, Ultra96, dashboard server and evaluation server. All socket connections are encrypted and features 2 way communication to control the blunos from the Ultra96. Ultra96 features multi-threading to handle each socket connection and the ML code.
+
 ## ./laptop
 * This folder contains the laptop_client.py code to run on each of the dancer's laptop.
 * Run requirements.txt for dependencies.
@@ -20,4 +22,3 @@
 * Helper scripts - move_eval.py, ml.py, driver_hardware_ml.py contains the helper scripts for evaluating moves, ml code and FPGA ml code respectively.
 * Run requirements.txt for dependencies.
 * Run the program using 'python3 main.py'
-
